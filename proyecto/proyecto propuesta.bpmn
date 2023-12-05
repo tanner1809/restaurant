@@ -301,7 +301,7 @@
       <bpmn:incoming>Flow_10nq2qo</bpmn:incoming>
       <bpmn:outgoing>Flow_1qw5o6o</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:serviceTask id="Activity_1r7vha8" name="Asignar codigo mediante DIAN" camunda:type="external" camunda:topic="DIANCode">
+    <bpmn:serviceTask id="Activity_1r7vha8" name="Asignar codigo mediante DIAN" camunda:type="external" camunda:topic="codeAssignment">
       <bpmn:incoming>Flow_1m74u07</bpmn:incoming>
       <bpmn:outgoing>Flow_10nq2qo</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -326,20 +326,20 @@
         <dc:Bounds x="160" y="80" width="2740" height="1320" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_0kodu72_di" bpmnElement="Lane_0kodu72" isHorizontal="true">
-        <dc:Bounds x="190" y="80" width="2710" height="370" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1gahakg_di" bpmnElement="Lane_1gahakg" isHorizontal="true">
-        <dc:Bounds x="190" y="450" width="2710" height="435" />
+      <bpmndi:BPMNShape id="Lane_0e8zspd_di" bpmnElement="Lane_0e8zspd" isHorizontal="true">
+        <dc:Bounds x="190" y="1190" width="2710" height="210" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_1c7ctpk_di" bpmnElement="Lane_1c7ctpk" isHorizontal="true">
         <dc:Bounds x="190" y="885" width="2710" height="305" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_0e8zspd_di" bpmnElement="Lane_0e8zspd" isHorizontal="true">
-        <dc:Bounds x="190" y="1190" width="2710" height="210" />
+      <bpmndi:BPMNShape id="Lane_1gahakg_di" bpmnElement="Lane_1gahakg" isHorizontal="true">
+        <dc:Bounds x="190" y="450" width="2710" height="435" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0kodu72_di" bpmnElement="Lane_0kodu72" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="2710" height="370" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataStoreReference_0rfbpb4_di" bpmnElement="DataStoreReference_0rfbpb4">
@@ -464,6 +464,10 @@
           <dc:Bounds x="375" y="263" width="81" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1qsrx36_di" bpmnElement="Activity_0bbtq0j">
+        <dc:Bounds x="2420" y="1260" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0zdi9b8_di" bpmnElement="Event_110cm9w">
         <dc:Bounds x="2762" y="1282" width="36" height="36" />
         <bpmndi:BPMNLabel>
@@ -499,10 +503,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0qj13cl_di" bpmnElement="Activity_04316qk">
         <dc:Bounds x="430" y="350" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1qsrx36_di" bpmnElement="Activity_0bbtq0j">
-        <dc:Bounds x="2420" y="1260" width="100" height="80" />
-        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0ij9dm1_di" bpmnElement="Flow_0ij9dm1">
         <di:waypoint x="900" y="277" />

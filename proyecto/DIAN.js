@@ -8,7 +8,7 @@ const config = { baseUrl: "http://localhost:8080/engine-rest", use: logger };
 const client = new Client(config);
 
 // Suscribirse al tipo de tarea "SendLetter" y definir la función a ejecutar cuando se recibe una tarea
-client.subscribe("DIANCode", async function({ task, taskService }) {
+client.subscribe("codeAssignment", async function({ task, taskService }) {
 
 
     const ID_client = parseInt(task.variables.get("id_name"), 10);  //Traer el cc del cliente 
@@ -23,7 +23,7 @@ client.subscribe("DIANCode", async function({ task, taskService }) {
     console.log(`El codigo asignado es el siguiente ${codigo}`);
 
 
-    const processVariables = new Variables();s
+    const processVariables = new Variables();
     
     processVariables.set("DIANCode",codigo);
     
