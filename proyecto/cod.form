@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "label": "codigo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0knnuwa",
+        "columns": null
+      },
+      "id": "Field_16jr7ja",
+      "key": "DIANCode",
+      "disabled": true,
+      "readonly": true,
+      "defaultValue": "CindySofía1121834306"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0fzh5s7",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

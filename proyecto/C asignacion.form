@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "Escriba el codigo que sera asignado.",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1e5m7tm",
+        "columns": null
+      },
+      "id": "Field_1isrlu5"
+    },
+    {
+      "label": "Codigo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1i7wkzm",
+        "columns": null
+      },
+      "id": "Field_195dhor",
+      "key": "field_0f88byd"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1vrqlpl",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

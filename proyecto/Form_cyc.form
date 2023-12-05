@@ -95,22 +95,22 @@
     {
       "values": [
         {
-          "label": "DIAN",
-          "value": "DIAN"
+          "label": "Si",
+          "value": "Si"
         },
         {
-          "label": "Ascesor",
-          "value": "Ascesor"
+          "label": "No",
+          "value": "No"
         }
       ],
-      "label": "quien asignara el codigo?",
+      "label": "el codigo sera asignado por la DIAN?",
       "type": "select",
       "layout": {
         "row": "Row_04b4k4z",
         "columns": null
       },
       "id": "Field_0jt9lk3",
-      "key": "field_0qkjwjk"
+      "key": "Codigo"
     }
   ],
   "type": "default",
