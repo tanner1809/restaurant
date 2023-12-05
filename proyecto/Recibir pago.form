@@ -1,0 +1,56 @@
+{
+  "components": [
+    {
+      "text": "# Pago Sayco y Acinpro",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1qta71z",
+        "columns": null
+      },
+      "id": "Field_1l1dvki"
+    },
+    {
+      "text": "Pago requerido",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1wo82rj",
+        "columns": 4
+      },
+      "id": "Field_0kg185k"
+    },
+    {
+      "label": "",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wo82rj",
+        "columns": 12
+      },
+      "id": "Field_0wt79yc",
+      "key": "sayco",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "label": "Cantidad a pagar",
+      "type": "number",
+      "layout": {
+        "row": "Row_1r8xiot",
+        "columns": null
+      },
+      "id": "Field_1dmpk3f",
+      "key": "pago",
+      "description": "En pesos"
+    }
+  ],
+  "type": "default",
+  "id": "pagar",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

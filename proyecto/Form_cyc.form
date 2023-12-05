@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "text": "# Datos basicos de la solicitud",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1huiwgx",
+        "columns": null
+      },
+      "id": "Field_0nl76vt"
+    },
+    {
+      "label": "Nombre del restaurante",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ghv09s",
+        "columns": null
+      },
+      "id": "Field_0z1lkuw",
+      "key": "empresa_name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nombre del titular",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1tfpkze",
+        "columns": null
+      },
+      "id": "Field_0eohlsv",
+      "key": "titular_name",
+      "description": "Primer nombre y apellido",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cédula",
+      "type": "number",
+      "layout": {
+        "row": "Row_1tfpkze",
+        "columns": null
+      },
+      "id": "Field_07c1aai",
+      "key": "id_name",
+      "validate": {
+        "max": 9999999999,
+        "min": 9999999,
+        "required": true
+      }
+    },
+    {
+      "label": "Estrato",
+      "type": "number",
+      "layout": {
+        "row": "Row_1njfr7h",
+        "columns": null
+      },
+      "id": "Field_1vlsts2",
+      "key": "estrato",
+      "validate": {
+        "min": 1,
+        "max": 5,
+        "required": true
+      }
+    },
+    {
+      "label": "Activos",
+      "type": "number",
+      "layout": {
+        "row": "Row_1njfr7h",
+        "columns": null
+      },
+      "id": "Field_0i7ekuk",
+      "key": "activos",
+      "description": "En pesos",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "¿Aplicará a Sayco y Acinpro?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_05zu3sl",
+        "columns": null
+      },
+      "id": "Field_1i6e2xg",
+      "key": "musica_check",
+      "readonly": false
+    },
+    {
+      "values": [
+        {
+          "label": "DIAN",
+          "value": "DIAN"
+        },
+        {
+          "label": "Ascesor",
+          "value": "Ascesor"
+        }
+      ],
+      "label": "quien asignara el codigo?",
+      "type": "select",
+      "layout": {
+        "row": "Row_04b4k4z",
+        "columns": null
+      },
+      "id": "Field_0jt9lk3",
+      "key": "field_0qkjwjk"
+    }
+  ],
+  "type": "default",
+  "id": "formulario",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

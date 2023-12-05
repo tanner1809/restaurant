@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_15tuzj1" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.2" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="sayco_acinpro" name="Sayco y acinpro">
+    <decisionTable id="DecisionTable_0xoc9bb">
+      <input id="Input_1" label="Activos" camunda:inputVariable="activos">
+        <inputExpression id="InputExpression_1" typeRef="long">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Sayco" name="sayco" typeRef="long" />
+      <rule id="DecisionRule_05bktbw">
+        <inputEntry id="UnaryTests_0dfl06j">
+          <text>&lt; 1000000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0tl5csa">
+          <text>100000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0gg2snx">
+        <inputEntry id="UnaryTests_0bwu688">
+          <text>]1000000..2000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_04wh3j8">
+          <text>200000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bivwrf">
+        <inputEntry id="UnaryTests_0hte52z">
+          <text>]2000000..3000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qubmpb">
+          <text>300000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0dpagsq">
+        <inputEntry id="UnaryTests_1y067eo">
+          <text>]3000000..4000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1cttheh">
+          <text>400000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1iwzbv4">
+        <inputEntry id="UnaryTests_1lbyldm">
+          <text>]4000000..5000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_035or1l">
+          <text>500000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0wh1tja">
+        <inputEntry id="UnaryTests_10drxd7">
+          <text>]5000000..10000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0b3ioae">
+          <text>1000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0ip1q1x">
+        <inputEntry id="UnaryTests_05ki5n8">
+          <text>]10000000..50000000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ip7n7e">
+          <text>2000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1f2vodh">
+        <inputEntry id="UnaryTests_0u1twy9">
+          <text>&gt; 50000000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0o3uvyq">
+          <text>10000000</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="sayco_acinpro">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

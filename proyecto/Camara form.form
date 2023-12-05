@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# ¿Formulario correcto?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1hewqhf",
+        "columns": null
+      },
+      "id": "Field_111i40w"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "Si"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "¿Todos los datos son correctos?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0o28s16",
+        "columns": null
+      },
+      "id": "Field_08hdjzn",
+      "key": "camara_check"
+    }
+  ],
+  "type": "default",
+  "id": "camara_form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

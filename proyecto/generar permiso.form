@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "text": "# LICENCIA DE TRABAJO",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1aig4um",
+        "columns": null
+      },
+      "id": "Field_05s7pav"
+    },
+    {
+      "text": "Restaurante:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_161utnl",
+        "columns": null
+      },
+      "id": "Field_0dw95vr"
+    },
+    {
+      "label": "Nombre del establecimiento autorizado",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_161utnl",
+        "columns": 13
+      },
+      "id": "Field_0z70xmx",
+      "key": "empresa_name",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "text": "Propietario:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1s3g1p1",
+        "columns": null
+      },
+      "id": "Field_1dmw7h1"
+    },
+    {
+      "label": "Nombre del titular",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1s3g1p1",
+        "columns": 13
+      },
+      "id": "Field_1xb1o3x",
+      "key": "titular_name",
+      "disabled": true,
+      "readonly": true
+    },
+    {
+      "text": "Cédula:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1xqr3bj",
+        "columns": null
+      },
+      "id": "Field_127uzd6"
+    },
+    {
+      "label": "Número de identificación",
+      "type": "number",
+      "layout": {
+        "row": "Row_1xqr3bj",
+        "columns": 13
+      },
+      "id": "Field_0uhas2s",
+      "key": "id_name",
+      "disabled": true,
+      "readonly": true
+    }
+  ],
+  "type": "default",
+  "id": "permiso",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

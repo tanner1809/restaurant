@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "text": "# ¿Cambios realizados?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0cs6pnn",
+        "columns": null
+      },
+      "id": "Field_0o6l7os"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "Si"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "¿Se aplicaron las recomendaciones hechas por el agente?",
+      "type": "select",
+      "layout": {
+        "row": "Row_1ffks0w",
+        "columns": null
+      },
+      "id": "Field_1n0y83f",
+      "key": "cambios_salud",
+      "defaultValue": "<none>"
+    }
+  ],
+  "type": "default",
+  "id": "cualquiercosa",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

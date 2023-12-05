@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Cantidad de errores",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_18hsh86",
+        "columns": null
+      },
+      "id": "Field_12emaeh"
+    },
+    {
+      "label": "Errores encontrados en la visita",
+      "type": "number",
+      "layout": {
+        "row": "Row_18hsh86",
+        "columns": 11
+      },
+      "id": "Field_0dz0rqi",
+      "key": "errores"
+    }
+  ],
+  "type": "default",
+  "id": "agente_form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
